@@ -7,7 +7,7 @@ plugins:
         package_version: '1.0'
 
 node_types:
-  cloudify.awsconn.nodes.VPNConnection:
+  cloudify.aws_get_vpn_connection_info.nodes.VPNConnection:
     derived_from: cloudify.nodes.Root
     interfaces:
       cloudify.interfaces.lifecycle:
