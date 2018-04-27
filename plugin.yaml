@@ -2,7 +2,7 @@ plugins:
     aws_get_vpn_connection_info:
         executor: central_deployment_agent
         install: false
-        source: https://github.com/tomahkvt/aws-get-vpn-connection-info/archive/1.0.zip
+        source: https://github.com/tomahkvt/aws-get-vpn-connection-info/aws-get-vpn-connection-info.zip
         package_name: aws-get-vpn-connection-info
         package_version: '1.0'
 
