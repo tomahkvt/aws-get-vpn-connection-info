@@ -21,7 +21,7 @@ from setuptools import setup
 setup(
 
     # Do not use underscores in the openstack-simple name.
-    name='aws_get_vpn_connection_info',
+    name='aws-get-vpn-connection-info',
 
     version='0.1',
     author='Tomakh Konstantin',
