@@ -26,7 +26,7 @@ setup(
     version='0.1',
     author='Tomakh Konstantin',
     author_email='ktomakh',
-    description='Get connection information from AWS',
+    description='Get connection informa tion from AWS',
 
     # This must correspond to the actual packages in the openstack-simple.
     packages=['aws-get-vpn-connection-info'],
