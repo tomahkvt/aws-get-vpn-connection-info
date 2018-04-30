@@ -21,7 +21,7 @@ from setuptools import setup
 setup(
 
     # Do not use underscores in the openstack-simple name.
-    name='aws-get-vpn-connection-info',
+    name='aws_get_vpn_connection_info',
 
     version='0.1',
     author='Tomakh Konstantin',
@@ -29,7 +29,7 @@ setup(
     description='Get connection informa tion from AWS',
 
     # This must correspond to the actual packages in the openstack-simple.
-    packages=['aws-get-vpn-connection-info'],
+    packages=['aws_get_vpn_connection_info'],
 
     license='Mirantis Inc. All rights reserved',
     zip_safe=False,
