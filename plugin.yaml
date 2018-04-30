@@ -1,5 +1,5 @@
 plugins:
-    aws_get_vpn_connection_info:
+    aws-get-vpn-connection-info:
         executor: central_deployment_agent
         install: false
         source: https://github.com/tomahkvt/aws-get-vpn-connection-info/raw/master/aws-get-vpn-connection-info.zip
@@ -12,5 +12,5 @@ node_types:
     interfaces:
       cloudify.interfaces.lifecycle:
         start:
-          implementation: aws_get_vpn_connection_info.plugin.tasks.start
+          implementation: aws-get-vpn-connection-info.aws-get-vpn-connection-info.plugin.tasks.start
           inputs: {}
