@@ -29,7 +29,7 @@ setup(
     description='Get connection information from AWS',
 
     # This must correspond to the actual packages in the openstack-simple.
-    packages=['aws_get_vpn_connection_info'],
+    packages=['aws-get-vpn-connection-info'],
 
     license='Mirantis Inc. All rights reserved',
     zip_safe=False,
