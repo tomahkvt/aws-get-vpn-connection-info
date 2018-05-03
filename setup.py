@@ -22,17 +22,16 @@ setup(
 
     # Do not use underscores in the openstack-simple name.
     name='aws-get-vpn-connection-info',
-
-    version='0.41',
     author='Tomakh Konstantin',
     author_email='tomahkvt@gmail.com',
+
+    version='0.42',
     description='Get connection informa tion from AWS',
 
     # This must correspond to the actual packages in the openstack-simple.
     packages=['aws_get_vpn_connection_info'],
 
     license='Mirantis Inc. All rights reserved',
-    zip_safe=False,
     install_requires=[
         'boto3'
     ]
