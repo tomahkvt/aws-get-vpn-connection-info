@@ -23,7 +23,7 @@ setup(
     # Do not use underscores in the openstack-simple name.
     name='aws-get-vpn-connection-info',
 
-    version='0.4',
+    version='0.41',
     author='Tomakh Konstantin',
     author_email='tomahkvt@gmail.com',
     description='Get connection informa tion from AWS',
