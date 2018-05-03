@@ -25,7 +25,7 @@ setup(
     author='Tomakh Konstantin',
     author_email='tomahkvt@gmail.com',
 
-    version='0.42',
+    version='0.43',
     description='Get connection informa tion from AWS',
 
     # This must correspond to the actual packages in the openstack-simple.
@@ -33,6 +33,7 @@ setup(
 
     license='Mirantis Inc. All rights reserved',
     install_requires=[
+	'cloudify-plugins-common>=3.4.2',
         'boto3'
     ]
 
